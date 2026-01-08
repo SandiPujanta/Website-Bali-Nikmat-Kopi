@@ -1,43 +1,48 @@
-<header
-    class="sticky top-0 z-50 w-full border-b border-[#e5e5e5] dark:border-[#2a2222] bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md">
-    <div class="px-4 md:px-10 lg:px-40 py-3 flex items-center justify-between mx-auto max-w-7xl">
-        <div class="flex items-center gap-4">
-            <div class="size-8 text-primary">
-                <span class="material-symbols-outlined text-3xl">coffee</span>
-            </div>
-            <h2 class="text-lg md:text-xl font-bold leading-tight tracking-[-0.015em] dark:text-white text-[#171212]">
-                Bali Nikmat Coffee</h2>
-        </div>
-        <button class="md:hidden text-[#171212] dark:text-white p-2">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
-        <div class="hidden md:flex flex-1 justify-end gap-8 items-center">
-            <nav class="flex items-center gap-6 lg:gap-9">
-                <a class="text-sm font-medium leading-normal hover:text-primary transition-colors dark:text-gray-300 text-[#4a4a4a]"
-                    href="../beranda_bali_nikmat_coffee/code.html">Beranda</a>
-                <div class="relative group">
-                    <button
-                        class="text-sm font-medium leading-normal hover:text-primary transition-colors flex items-center gap-1 dark:text-gray-300 text-[#4a4a4a]">
+<link rel="stylesheet" href="../header.css">
+<header class="main-header">
+    <div class="header-container">
+        <!-- Brand/Logo -->
+        <a href="../beranda_bali_nikmat_coffee/code.html" class="header-logo">
+            <span class="material-symbols-outlined">coffee</span>
+            <h2>Bali Nikmat Coffee</h2>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="header-nav-wrapper">
+            <nav class="nav-links">
+                <a href="../beranda_bali_nikmat_coffee/code.html" class="nav-link">Beranda</a>
+
+                <div class="dropdown">
+                    <button class="nav-link dropdown-toggle">
                         Tentang
-                        <span class="material-symbols-outlined text-sm">expand_more</span>
+                        <span class="material-symbols-outlined">expand_more</span>
                     </button>
-                    <div
-                        class="absolute top-full right-0 mt-2 w-48 bg-white dark:bg-surface-dark rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-gray-100 dark:border-[#2a2222] p-2 flex flex-col gap-1">
-                        <a class="block px-4 py-2 text-sm rounded hover:bg-gray-100 dark:hover:bg-[#2a2222] dark:text-gray-200"
-                            href="../tentang_kami/code.html">Sejarah</a>
-                        <a class="block px-4 py-2 text-sm rounded hover:bg-gray-100 dark:hover:bg-[#2a2222] dark:text-gray-200"
-                            href="../tentang_kami/code.html">Layanan</a>
+                    <div class="dropdown-content">
+                        <a href="../tentang_kami/code.html" class="dropdown-item">
+                            <span class="material-symbols-outlined" style="font-size: 18px;">history</span>
+                            Sejarah
+                        </a>
+                        <a href="../tentang_kami/code.html" class="dropdown-item">
+                            <span class="material-symbols-outlined" style="font-size: 18px;">local_cafe</span>
+                            Layanan
+                        </a>
                     </div>
                 </div>
-                <a class="text-sm font-medium leading-normal hover:text-primary transition-colors dark:text-gray-300 text-[#4a4a4a]"
-                    href="../produk_kami_bali_nikmat_coffee/code.html">Produk Kami</a>
-                <a class="text-sm font-medium leading-normal hover:text-primary transition-colors dark:text-gray-300 text-[#4a4a4a]"
-                    href="../kontak_bali_nikmat_coffee/code.html">Kontak</a>
+
+                <a href="../produk_kami_bali_nikmat_coffee/code.html" class="nav-link">Produk Kami</a>
+                <a href="../kontak_bali_nikmat_coffee/code.html" class="nav-link">Kontak</a>
             </nav>
-            <button
-                class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary hover:bg-[#8f1b1b] transition-colors text-white text-sm font-bold shadow-lg shadow-primary/20">
-                <span class="truncate">Beli Sekarang</span>
-            </button>
+
+            <div class="header-cta">
+                <button class="buy-btn">
+                    <span>Beli Sekarang</span>
+                </button>
+            </div>
         </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-menu-btn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
     </div>
 </header>

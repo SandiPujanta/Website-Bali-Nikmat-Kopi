@@ -1,0 +1,202 @@
+/* Footer Styles - Simplified & Professional */
+.main-footer {
+    width: 100%;
+    background-color: #0c0a0a;
+    border-top: 1px solid #1a1515;
+    padding: 80px 0 40px 0;
+    color: #ffffff;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 60px;
+}
+
+@media (min-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1.5fr 1fr 1.2fr 1.3fr;
+        gap: 40px;
+    }
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Brand Section */
+.footer-brand .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-brand .brand-logo .material-symbols-outlined {
+    font-size: 32px;
+    color: #b91c1c;
+}
+
+.footer-brand .brand-logo h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.footer-brand p {
+    color: #888888;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 260px;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #1a1515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888888;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    background-color: #b91c1c;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Heading Style */
+.footer-column h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Links & Contact Style */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-list li a,
+.contact-link {
+    color: #888888;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-list li a:hover,
+.contact-link:hover {
+    color: #ffffff;
+}
+
+.footer-list .material-symbols-outlined {
+    font-size: 18px;
+    color: #b91c1c;
+}
+
+/* Subscription Form - Simple & Clean */
+.subscribe-info {
+    color: #888888;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subscribe-form input {
+    width: 100%;
+    background-color: #1a1515;
+    border: 1px solid #2a2222;
+    border-radius: 10px;
+    padding: 14px 16px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.subscribe-form input:focus {
+    border-color: #b91c1c;
+}
+
+.subscribe-form button {
+    background-color: #b91c1c;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #991b1b;
+    box-shadow: 0 10px 20px rgba(185, 28, 28, 0.2);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    max-width: 1280px;
+    margin: 80px auto 0;
+    padding: 32px 40px 0;
+    border-top: 1px solid #1a1515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+    }
+}
+
+.footer-bottom p {
+    color: #555555;
+    font-size: 13px;
+    margin: 0;
+}
+
+.made-with {
+    color: #555555;
+    font-size: 12px;
+}
