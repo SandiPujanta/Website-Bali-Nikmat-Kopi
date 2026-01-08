@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="dark" lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Produk Kami - Bali Nikmat Coffee</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#B22222",
+                        "primary-light": "#e03e3e",
+                        "background-dark": "#171212",
+                        "surface-dark": "#261d1d",
+                        "border-dark": "#372a2a",
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <script src="../include.js"></script>
+</head>
+
+<body class="bg-background-dark font-display text-white antialiased selection:bg-primary selection:text-white">
+    <div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+        <div data-include="../header.html"></div>
+        <main class="flex-grow">
+            <section class="relative w-full">
+                <div class="w-full h-[300px] md:h-[400px] bg-cover bg-center relative"
+                    data-alt="Dark moody shot of roasted coffee beans texture"
+                    style='background-image: linear-gradient(0deg, rgba(23, 18, 18, 0.9) 0%, rgba(23, 18, 18, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDIhYV7NT9VHfZom6zPyA132yUccLQfPvFumZpj1Wo1xqfLaNlPzylog7Z1PISYkou7JKxfX-JmuM91xGaQPnCfR8TR7rPNo1r728WI8kmZL6mfnCehN294TXEqwzIWw2CTATL7-Slqo8P7A3UI45z3WxT9T0NGAK1P2boRVwggtcQ7JyZfK7-pQuDVHhqZ264mpo1XeoCD8PDz11xAPDNFDTxW9m8B-FpSTSMRgZoXwPLhYUyQhrBXhds_DL7yRFOjj3wT-_xmd94");'>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+                        <span class="text-primary-light text-sm font-bold tracking-widest uppercase mb-2">Katalog
+                            Resmi</span>
+                        <h1 class="text-white text-4xl md:text-5xl font-black tracking-tight mb-4 drop-shadow-md">Cita
+                            Rasa Asli Bali</h1>
+                        <p class="text-gray-300 max-w-2xl text-base md:text-lg">Temukan koleksi biji kopi pilihan dan
+                            bubuk premium kami yang diproses langsung dari perkebunan terbaik di Bali.</p>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="border-b border-border-dark bg-background-dark sticky top-16 z-40 py-4 shadow-xl shadow-black/20">
+                <div class="mx-auto max-w-[1280px] px-4 sm:px-10">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                        <div class="flex gap-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
+                            <button
+                                class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary px-5 transition-transform active:scale-95 shadow-md shadow-red-900/10">
+                                <span class="text-white text-sm font-bold">Semua</span>
+                            </button>
+                            <button
+                                class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-surface-dark border border-border-dark hover:border-primary px-5 transition-colors">
+                                <span class="text-gray-300 text-sm font-medium">Arabica</span>
+                            </button>
+                            <button
+                                class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-surface-dark border border-border-dark hover:border-primary px-5 transition-colors">
+                                <span class="text-gray-300 text-sm font-medium">Robusta</span>
+                            </button>
+                            <button
+                                class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-surface-dark border border-border-dark hover:border-primary px-5 transition-colors">
+                                <span class="text-gray-300 text-sm font-medium">House Blend</span>
+                            </button>
+                            <button
+                                class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-surface-dark border border-border-dark hover:border-primary px-5 transition-colors">
+                                <span class="text-gray-300 text-sm font-medium">Bubuk</span>
+                            </button>
+                        </div>
+                        <div class="flex items-center gap-2 text-sm text-gray-400">
+                            <span class="material-symbols-outlined !text-[20px]">sort</span>
+                            <span>Urutkan: Populer</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-12 bg-background-dark">
+                <div class="mx-auto max-w-[1280px] px-4 sm:px-10">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Black coffee packaging pouch standing on wooden table"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBTpLVNs0l_VyevdDLjYYH9opXPFhOjOyeWaRI-8qwA1ZQc8dJf6p3DB4sAAd85J_y0Opq6IgnelmO9GIcpwCZlybkVKbvvZO04EfdYy4PQnPFuPWhaJbYWVNHPhTjenfPD-e_mCDCbTTXaCjP5hAhZUszEt7ARcZ2JYJiOykEf8sJyzvNZCcgUmJQZwOk_Ot_PTmbiAiuYOmiPsA-9QAdACm9dHBL57uHpJI1wwLPlbQ70f40CUS4maKr3apk4HABkKJssvIKuaR8");'>
+                                </div>
+                                <div
+                                    class="absolute top-3 right-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded shadow-sm">
+                                    Best Seller</div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">4.9 (120 terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    Kopi Bali Asli 250g</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Kopi bubuk tradisional dengan aroma
+                                    khas Bali yang kuat dan nikmat.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <div class="flex flex-col">
+                                        <span class="text-xs text-gray-500 line-through">Rp 55.000</span>
+                                        <span class="text-primary-light text-lg font-bold">Rp 45.000</span>
+                                    </div>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli di Tokopedia
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Premium gold coffee bag packaging"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnjP5MaByQDaEvAUTO7ZGBFw_PuJ8t5qtuEsNpvqTJVTpZH0nygTyTcDQvgt8AHKEq6sck3yEVmOmvC6Yi93GjEj3H4IRvVm7GebRWPH-Nj265wCj-L6N8229x0W813vyJ2pI_b19swX1__5Ze03KW1NMh05pVmparnqr3Zy5-9XVoCL9R1eG9dBE-G8RhOUTMSAcHBgkzYWLI4cTU2zeuDsnoiJ-qIi6jx-m5LIas1NP7uyWaubSXo0YCtO0JC4cs3_radigmCpo");'>
+                                </div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">5.0 (85 terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    Arabica Kintamani Premium</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Biji kopi pilihan dari dataran tinggi
+                                    Kintamani dengan notes jeruk yang segar.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <span class="text-primary-light text-lg font-bold">Rp 85.000</span>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli di Shopee
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Dark roast coffee beans in a bowl"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcDUugATZYaqx0XWdpKRqhVmHbg65h26jHPeaQnguOz9RTlFBUKUCL2UNNury18nVmcouKozeI3-YPYgsCsUJNNpftAIttqPyoQaewJEG5gEstTHal9WmgK6NaACamdy-8BKnWwg3wyYmnh3xz3wOdUdwGL1Lt6D0ly6egkGwtyMUMPZfh95hrr_aPwhL-AFoyzY99J6sb9AvHzfxEFiHb3vY43OUkalMoZP3kLZe20Hkd96ExvFejywhAD1qRxDC5L_iHNe6s9Dc");'>
+                                </div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">4.8 (200+ terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    Robusta Gold 500g</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Kopi Robusta dengan body tebal dan
+                                    kadar kafein tinggi untuk semangat pagi.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <span class="text-primary-light text-lg font-bold">Rp 65.000</span>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli Sekarang
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Paper coffee bag mock up"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBMLiJuuerMwWuVt8ObAYQ8VR_JpwsYK1cMxGqFcPLRzS37HBP1G_KDxLeWBblMumWsF6mSZuB4PzZXQDLDkswobtlO8fQlZl8L_BBWhcrK7juA14oZ3ljrC7eFKyA1X9TtQ1d89iZAq7bOGghrcqNCpMTOeXHYbB0frb9-C96D6gKPm21PJBpeTm2xMJ_1XJWnzSCXPU7zoSue_Jm-PC7Puy55qHehKfZ_F2NWNmrKhhz0qlzczFWBg3j4RgbazlVdf-C28iqAG2U");'>
+                                </div>
+                                <div
+                                    class="absolute top-3 right-3 bg-white text-black text-xs font-bold px-2 py-1 rounded">
+                                    New</div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">5.0 (15 terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    House Blend Special</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Perpaduan sempurna Arabica dan
+                                    Robusta racikan barista kami.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <span class="text-primary-light text-lg font-bold">Rp 55.000</span>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli Sekarang
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Espresso coffee cup with beans"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBvDQCPyRhcj6Ij4LlXRSHtpPZXsoKUG9xCjH81LsAJeBvzQMpnvFFJWqiU0qxPfXNhRxFP5f0JfZjDWBh3CMmCF-_gxhDI5qsA7M54l6py2HY0KmMVDnftOD1cZAmpczJpRDFnmrrTrYS0HQk5lifUWKGzOS47ctqvbUvS6lxfCI57mqbC_ZEFEcsg8-rnx2RQmupXU7CrZkQOaUssIWuD-HCtjAjwudyqD2w_WFj4_l56hS2PkQ8Qg9WqBLa6GzZ7EcAujwVv8gU");'>
+                                </div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">4.7 (56 terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    Espresso Roast 1kg</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Dark roast khusus untuk mesin
+                                    espresso, crema tebal dan rasa intens.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <span class="text-primary-light text-lg font-bold">Rp 120.000</span>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli Sekarang
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                            class="group flex flex-col rounded-xl bg-surface-dark border border-border-dark overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:shadow-black/30">
+                            <div class="relative w-full aspect-square overflow-hidden bg-[#201a1a]">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+                                    data-alt="Drip coffee bag packaging"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRVA9iKzKCCjLoCWRfnwbPhS3pyoCAgfi5B5HaMD1B7fiQ_B-e7wRVhLWXwKEmY-WM3kj1lJACwtKWKXjUkz5INRHQ65tThURiF4fv4xS6IF6ciNMZy4EJpUXoz8lVxJXTj0w5kUdF1_E2Wt6_lmN_ql71STLdTmah5fi7wnKhaGnPLe42fqgQTrAEDHok-r1-_G1VDL5atNQTzQzBFke0dXnmYQPCeH-T9HbVrmh68QHvlOtu1R890EUJdaReKXdw4ryOh-DdF0w");'>
+                                </div>
+                            </div>
+                            <div class="p-5 flex flex-col flex-1">
+                                <div class="flex items-center gap-1 mb-2">
+                                    <span class="material-symbols-outlined text-yellow-500 !text-[16px]">star</span>
+                                    <span class="text-xs text-gray-400 font-medium">4.9 (42 terjual)</span>
+                                </div>
+                                <h3
+                                    class="text-white text-lg font-bold leading-tight mb-1 group-hover:text-primary-light transition-colors">
+                                    Drip Bag Coffee (5 Pcs)</h3>
+                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">Kopi praktis sekali seduh, cocok
+                                    untuk dibawa traveling.</p>
+                                <div class="mt-auto flex items-center justify-between">
+                                    <span class="text-primary-light text-lg font-bold">Rp 35.000</span>
+                                    <button
+                                        class="p-2 rounded-lg bg-white/5 hover:bg-primary text-primary-light hover:text-white transition-colors">
+                                        <span class="material-symbols-outlined">shopping_cart</span>
+                                    </button>
+                                </div>
+                                <a class="mt-4 w-full block text-center py-2.5 rounded-lg border border-primary text-gray-200 hover:bg-primary hover:text-white font-bold text-sm transition-all uppercase tracking-wide"
+                                    href="#">
+                                    Beli Sekarang
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-16 bg-[#1a1515] border-t border-border-dark">
+                <div class="mx-auto max-w-[1280px] px-4 sm:px-10">
+                    <div class="flex flex-col md:flex-row gap-10 items-start justify-between">
+                        <div class="max-w-lg">
+                            <h2 class="text-white text-3xl font-bold leading-tight mb-4">Mengapa Memilih Bali Nikmat?
+                            </h2>
+                            <p class="text-gray-400 text-lg">Kami berdedikasi untuk menghadirkan kualitas kopi terbaik
+                                dari perkebunan pilihan di Bali langsung ke cangkir Anda.</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full md:w-auto">
+                            <div
+                                class="flex flex-col gap-3 rounded-xl border border-border-dark bg-surface-dark p-6 hover:bg-[#302525] transition-colors">
+                                <div class="text-primary">
+                                    <span class="material-symbols-outlined !text-[32px]">verified</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-bold text-lg">Dijamin Halal</h3>
+                                    <p class="text-gray-500 text-sm mt-1">Sertifikasi resmi untuk ketenangan Anda.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-3 rounded-xl border border-border-dark bg-surface-dark p-6 hover:bg-[#302525] transition-colors">
+                                <div class="text-primary">
+                                    <span class="material-symbols-outlined !text-[32px]">local_cafe</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-bold text-lg">Biji Pilihan</h3>
+                                    <p class="text-gray-500 text-sm mt-1">Dipetik merah dari dataran tinggi Bali.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-3 rounded-xl border border-border-dark bg-surface-dark p-6 hover:bg-[#302525] transition-colors">
+                                <div class="text-primary">
+                                    <span class="material-symbols-outlined !text-[32px]">local_fire_department</span>
+                                </div>
+                                <div>
+                                    <h3 class="text-white font-bold text-lg">Fresh Roast</h3>
+                                    <p class="text-gray-500 text-sm mt-1">Disangrai rutin untuk aroma maksimal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div data-include="../footer.html"></div>
+    </div>
+</body>
+
+</html>
